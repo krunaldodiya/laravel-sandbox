@@ -19,5 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/test', function () {
-    return response(['message'=> "hello there"],200);
+    return response(['message' => "hello krunal"], 200);
 });
